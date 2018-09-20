@@ -1,11 +1,11 @@
-def my_each arr# put argument(s) here
+def my_each arg# put argument(s) here
   # code here
   i = 0
 
-  while i < arr.length
-    yield arr[i]
+  while i < arg.length
+    yield arg[i]
     i += 1
   end
 
-  arr
+  arg
 end
