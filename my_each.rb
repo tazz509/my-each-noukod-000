@@ -2,7 +2,7 @@ def my_each arr# put argument(s) here
   # code here
   i = 0
 
-  while i < arg.length
+  while i < arr.length
     yield arr[i]
     i += 1
   end
