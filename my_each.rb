@@ -1,4 +1,4 @@
-def my_each arg# put argument(s) here
+def my_each arr# put argument(s) here
   # code here
   i = 0
 
